@@ -1,9 +1,11 @@
 Description:
-In C language malloc() and free() are used to manage the heap: a program's primary loaction for dynamically allocated data. This project is implementation of malloc() and free() in C.
+In C language malloc() and free() are used to manage the heap: a program's primary loaction for dynamically allocated data. This project is implementation of malloc() and free() in C. Fall 2022 course project for CS214 at Rutgers University. Please follow Rutgers University Academic Integrity Policy.
+_________________________________________________________________________________________________________________________________________________________________________
 
 Here's the command line used to run:
 To compile: enter the directory of the project, then type "make" into the command prompt.
 To execute: type "./mymalloc" into the command prompt after compiling.
+_________________________________________________________________________________________________________________________________________________________________________
 
 Our Test Plan: memgrind.c:
 
@@ -23,3 +25,4 @@ Here are the Mini-Tests. They are performed only once and were constructed based
 3. Attempt to free an address that is outside the range of MEMSIZE.
 4. Attempt to free an address that isn't the start of a chunk.
 5. Attempt allocate memory when gaps exist, but which are not large enough to fit the memory allocated.
+_________________________________________________________________________________________________________________________________________________________________________
