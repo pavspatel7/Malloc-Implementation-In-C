@@ -1,3 +1,6 @@
+Description:
+In C language malloc() and free() are used to manage the heap: a program's primary loaction for dynamically allocated data. This project is implementation of malloc() and free() in C.
+
 Here's the command line used to run:
 To compile: enter the directory of the project, then type "make" into the command prompt.
 To execute: type "./mymalloc" into the command prompt after compiling.
